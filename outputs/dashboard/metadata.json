@@ -1,0 +1,32 @@
+{
+  "efpi_start": "2022-01",
+  "efpi_end": "2026-09",
+  "efpi_months": 57,
+  "efpi_base_month": "2023-01",
+  "socio_reference_year": 2024,
+  "n_districts": 162,
+  "train_start": "2022-01",
+  "train_end": "2025-12",
+  "test_start": "2026-01",
+  "test_end": "2026-09",
+  "selected_model": "Prophet",
+  "lowest_rmse_model": "Prophet-LSTM Hybrid",
+  "selection_rule": "Lowest mean RMSE; models within 2% of the best are tied and the simpler model is chosen",
+  "lstm_lookback": 6,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "forecast_horizon": 3,
+  "forecast_months": [
+    "2026-10",
+    "2026-11",
+    "2026-12"
+  ],
+  "selected_beats_naive_rmse": false,
+  "all_r2_negative": true,
+  "generated": "2026-11-24 11:45"
+}
